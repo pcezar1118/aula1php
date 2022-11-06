@@ -12,21 +12,18 @@
         O número informado foi [número].
     </p>
 
-    <?php
-    
-    $numero = "";
-
-    echo "O número informado é $numero";
-    
-    ?>
-
-    <form action="Um número" method="get">
+    <form action="numero" method="get">
         Número: <input type="text" name="numero"><br>
         <input type="button">
     </form>
+  
+
     
-
-
-
+     O número informado foi <?php 
+     
+     $numero = "";
+     echo $_GET["numero"]; ?> 
+    
+     
 </body>
 </html>
