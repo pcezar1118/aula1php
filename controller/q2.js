@@ -1,8 +1,8 @@
 function clicar() {
-    let = document.querySelector("#n1").value;
-    let = document.querySelector("#n2").value;
+    let = (document.getElementById("n1").value);
+    let = (document.getElementById("n2").value);
     let resultado = parseInt(n1) + parseInt(n2);
-    document.querySelector("#resultado").innerHTML = resultado;
+    document.getElementById("resultado").innerHTML = resultado;
 }
 console.log(resultado);
 
