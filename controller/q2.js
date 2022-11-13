@@ -10,6 +10,16 @@ console.log(resultado);
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*class Numeros {
 constructor(numero) {
     this.numero = numero;
